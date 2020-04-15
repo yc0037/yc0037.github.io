@@ -37,7 +37,7 @@ markdown: kramdown
 theme: jekyll-text-theme
 plugins:
   - jekyll-feed
-highlighter: pygments
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
