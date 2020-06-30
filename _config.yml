@@ -24,6 +24,7 @@ github_username:  yc0037
 toc:
   selectors: "h1,h2,h3"
 paginate: 8
+lang: zh
 # Mathjax
 mathjax: true
 mathjax_autoNumber: true
