@@ -2,4 +2,15 @@
 code {
     font-size: inherit;
 }
+
+.example {
+    border: 1px solid #b2bbbe;
+    background-color: #cdd1d3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.example p {
+    margin: 0 10px;
+}
 /* end custom scss snippet */

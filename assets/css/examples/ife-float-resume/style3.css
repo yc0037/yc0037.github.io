@@ -1,0 +1,58 @@
+body {
+    font: 100%/2em Arial, sans-serif;
+}
+
+.inline-item {
+    display: inline;
+    margin-right: 2em;
+}
+
+.line-item {
+    /* float: left; */
+    display: inline-block;
+    margin: 1em;
+}
+
+.resume-item {
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+
+p {
+    display: inline;
+}
+
+h1 {
+    height: 2em;
+    padding: .5em;
+    padding-left: 1em;
+    margin: 0;
+
+    line-height: 2em;
+
+    color: #fff;
+    background-color: #858585;
+}
+
+h2 {
+    float: left;
+
+    width: 10%;
+    height: 150px;
+    margin: 0;
+    border: 1px solid #fff;
+
+    font-size: 1.2em;
+    line-height: 150px;
+    text-align: center;
+
+    background-color: #d6d6d6;
+}
+
+h3 {
+    display: inline;
+}
+
+h3::after {
+    content: "\02002";
+}
