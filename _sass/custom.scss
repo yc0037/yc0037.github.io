@@ -13,4 +13,10 @@ code {
 .example p {
     margin: 0 10px;
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 /* end custom scss snippet */
