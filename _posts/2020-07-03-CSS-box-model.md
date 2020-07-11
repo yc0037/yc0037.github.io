@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "CSS笔记-盒模型"
-categories: "前端"
+categories: "FrontEnd"
 aside:
     toc: true
 ---
@@ -188,3 +188,7 @@ Margin box表示外边距, 亦即包裹整个盒子的外部空白区域. 通过
         display: inline-block;
     }
 ```
+
+### `none`
+
+设置`display: none;`的元素将被隐藏，并且不会占据它本来应该占据的空间。

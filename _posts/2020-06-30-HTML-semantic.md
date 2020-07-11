@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "HTML语义化"
-categories: "前端"
+categories: "FrontEnd"
 aside:
     toc: true
 ---

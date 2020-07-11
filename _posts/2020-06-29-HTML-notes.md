@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "HTML学习笔记"
-categories: 前端
+categories: "FrontEnd"
 aside:
     toc: true
 ---

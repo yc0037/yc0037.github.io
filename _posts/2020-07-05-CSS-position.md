@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "CSS笔记-定位"
-categories: "前端"
+categories: "FrontEnd"
 aside:
     toc: true
 ---
@@ -63,6 +63,7 @@ aside:
         left: 10px;
         top: 60%;
         width: 150px;
+        z-index: 99999;
     }
 </style>
 
@@ -135,7 +136,7 @@ aside:
 
 本页左侧的动图就是固定定位元素的一个例子。
 
-<div class="fix"><img src="/assets/images/quin-chase-fish.gif"></div>
+<div class="fix"><img src="http://lyc0037.gitee.io/pics/img/quin-chase-fish.gif"></div>
 
 ### sticky定位
 
