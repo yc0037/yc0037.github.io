@@ -1,0 +1,20 @@
+<svg id="Item_3.svg" data-name="Item 3.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30" x2="30" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f45438"/>
+      <stop offset="1" stop-color="#cb270a"/>
+    </linearGradient>
+  </defs>
+  <rect id="Base" class="cls-1" width="60" height="60" rx="30" ry="30"/>
+  <path id="Item_3" data-name="Item 3" class="cls-2" d="M50.5,200c2.333,0,5.083-2,6.5-2,8.583,0,13.417,23,7,23-4,0-7.521-6.667-13.521-6.667-7.416,0-8.146,6.75-13.562,6.75C30.5,221.083,35.416,198,44,198,45.25,198,48.166,200,50.5,200Zm8,3.5a1,1,0,1,1-1,1A1,1,0,0,1,58.5,203.5Zm3,3a1,1,0,1,1-1,1A1,1,0,0,1,61.5,206.5Zm-3,3a1,1,0,1,1-1,1A1,1,0,0,1,58.5,209.5Zm-3.062-3a1,1,0,1,1-1,1A1,1,0,0,1,55.437,206.5ZM43.5,202a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,43.5,202Zm0,2a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,43.5,204Z" transform="translate(-20 -180)"/>
+</svg>

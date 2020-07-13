@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfc7d8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="dropdown.svg" class="cls-1" d="M1548.47,38c0.48,0.542.78,1.133,0.3,1.674l-4.38,4.9a1.146,1.146,0,0,1-1.75,0l-4.38-4.9c-0.48-.542-0.18-1.133.3-1.674h9.91Zm0-3c0.48,0.542.78,1.133,0.3,1.674l-4.38,4.9a1.145,1.145,0,0,1-1.75,0l-4.38-4.9c-0.48-.542-0.18-1.133.3-1.674h9.91Z" transform="translate(-1538 -38)"/>
+</svg>

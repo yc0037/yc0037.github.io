@@ -1,0 +1,20 @@
+<svg id="Item_1.svg" data-name="Item 1.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30" y1="60" x2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1991eb"/>
+      <stop offset="1" stop-color="#2ea1f8"/>
+    </linearGradient>
+  </defs>
+  <rect id="Base" class="cls-1" width="60" height="60" rx="30" ry="30"/>
+  <path id="Item_1" data-name="Item 1" class="cls-2" d="M65,52.006l-8.853,2.769-10.9-9.56,8.449,10.3-9.467,3.018L39.352,39.182ZM53.992,57.031v5.325l-3.116-4.4Z" transform="translate(-20 -20)"/>
+</svg>

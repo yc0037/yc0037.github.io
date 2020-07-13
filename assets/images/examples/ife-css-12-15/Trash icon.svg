@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9fa9ba;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Trash_icon.svg" data-name="Trash icon.svg" class="cls-1" d="M1373,110l-1,9a2,2,0,0,1-2,2h-8a2,2,0,0,1-2-2l-1-9a1,1,0,0,1,0-2h4v-2a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v2h4A1,1,0,0,1,1373,110Zm-7-3a1,1,0,0,0-1,1h2A1,1,0,0,0,1366,107Zm3,3h-8l1,8a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1l1-8h-2Zm-1,7a1,1,0,0,1-1-1v-3a1,1,0,0,1,2,0v3A1,1,0,0,1,1368,117Zm-4,0a1,1,0,0,1-1-1v-3a1,1,0,0,1,2,0v3A1,1,0,0,1,1364,117Z" transform="translate(-1358 -105)"/>
+</svg>

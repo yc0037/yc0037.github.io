@@ -1,0 +1,21 @@
+<svg id="Item_2.svg" data-name="Item 2.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30" y1="60" x2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f5be6"/>
+      <stop offset="0.005" stop-color="#7f5be6"/>
+      <stop offset="1" stop-color="#9d8fe3"/>
+    </linearGradient>
+  </defs>
+  <rect id="Base" class="cls-1" width="60" height="60" rx="30" ry="30"/>
+  <path id="Item_2" data-name="Item 2" class="cls-2" d="M57.871,145.431s0.335-2.011-1.731-4.468a42.84,42.84,0,0,0,2.29-10.778s4.132,0.949,4.132,5.026A12.654,12.654,0,0,1,57.871,145.431ZM46.479,142.98s-2.768-8.882-2.768-12.568a20.883,20.883,0,0,1,.477-4.471H56.8a20.75,20.75,0,0,1,.481,4.472c0,3.63-2.759,12.567-2.759,12.567H46.479Zm4.012-15.009a2.569,2.569,0,1,0,2.569,2.569A2.569,2.569,0,0,0,50.491,127.971ZM49.937,116.5V113h1v3.409a15.738,15.738,0,0,1,5.635,8.576H44.413A15.634,15.634,0,0,1,49.937,116.5Zm-6.809,28.933a12.654,12.654,0,0,1-4.691-10.22c0-4.077,4.132-5.026,4.132-5.026a42.829,42.829,0,0,0,2.29,10.778C42.793,143.42,43.128,145.431,43.128,145.431Zm9.063,0.516-0.838-.838L50.46,147.9,49.4,145.109l-0.726,1.452-1.061-2.625h5.752Z" transform="translate(-20 -100)"/>
+</svg>
