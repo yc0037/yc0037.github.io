@@ -25,6 +25,13 @@ toc:
   selectors: "h1,h2,h3"
 paginate: 8
 lang: zh
+timezone: Asia/Shanghai
+author:
+  name  : lyc
+  url   : yc0037.github.io
+  avatar: ./assets/images/android-chrome-192x192.png
+  bio   : A student. Touch fish.
+  github: yc0037
 # Mathjax
 mathjax: true
 mathjax_autoNumber: true

@@ -23,3 +23,5 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /genvatar
+  - title: PKURanking
+    url: http://pkuranking.com
