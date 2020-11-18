@@ -7,11 +7,6 @@ aside:
 ---
 
 <style>
-  .example {
-    background-color: #e2e1e4;
-    border: 1px #c8adc4 solid;
-    border-radius: 5px;
-  }
   button {
     margin: 10px 0;
     width: 5em;

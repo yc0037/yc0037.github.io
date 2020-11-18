@@ -55,6 +55,23 @@ console.log(someone.firstName, someone.lastName); // Test Try
 
 另一方面，使用`call`和`apply`来对对象调用函数，事实上降低了函数与对象的耦合，这也是它们的一个主要的好处。下面我们还会看到`call`和`apply`的其他应用场景。
 
+### 实现`call`和`apply`方法
+这两种方法的实现是类似的。这里只举例实现`call`方法。
+``` js
+Function.prototype.myCall = function(context, ...args) {
+  const f = this;
+  if (context) {
+    const symbol = Symbol('fn');
+    context[symbol] = f;
+    const res = context[symbol](...args);
+    delete context[symbol];
+    return res;
+  } else {
+    return f(...args);
+  }
+}
+```
+
 ## 装饰器
 装饰器（或者包装器）是一种特殊的函数，它可以改变函数的行为而不必修改函数本身。
 
@@ -164,6 +181,22 @@ obj = Object.assign({}, obj, { msg: "Goodbye!" });
 let objGreet = obj.greet.bind(obj);
 setTimeout(objGreet, 1000);     // Goodbye！
 obj.msg = "Goodbye!";
+```
+
+### 实现`bind`方法
+``` js
+Function.prototype.myBind = function(context, ...args) {
+  const fn = this;
+  if (context) {
+    return function(...restArgs) {
+      return fn.apply(context, [...args, ...restArgs]);
+    }
+  } else {
+    return function(...restArgs) {
+      return fn(...args, ...restArgs);
+    }
+  }
+}
 ```
 
 ## 偏函数（partial functions）
