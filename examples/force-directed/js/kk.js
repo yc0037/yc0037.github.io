@@ -8,7 +8,7 @@ let strength = [];
 let idealLength = [];
 let maxD = 0;
 
-let up = 2;
+let up = 4;
 
 // 数据格式
 // nodes = [{"id": 学校名称, "weight": 毕业学生数量}, ...]
@@ -85,6 +85,9 @@ export function kk(nodes, links) {
     }
     // console.log('x: ', nodes[maxM].x, 'y: ', nodes[maxM].y);
     // break;
+  }
+  for (let node of nodes) {
+    node.x = node.x * 1.5 - 0.25 * width;
   }
 }
 

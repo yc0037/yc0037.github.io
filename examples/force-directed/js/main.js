@@ -57,10 +57,10 @@ function draw_graph() {
     // links
     link = svg.append("g")
         .attr("stroke", "#999")
-        .attr("stroke-opacity", 0.3)
         .selectAll("line")
         .data(links)
         .join("line")
+        .attr("stroke-opacity", d => d.weight > 15 ? 0.4 : 0.2)
         .attr("stroke-width", d => Math.sqrt(d.weight));
 
     // nodes
@@ -70,16 +70,16 @@ function draw_graph() {
         .selectAll("circle")
         .data(nodes)
         .join("circle")
-        .attr("r", d => Math.sqrt(d.weight) * 1.5 + 1)
+        .attr("r", d => Math.sqrt(d.weight) * 1.4 + 1)
         .attr("fill", "steelblue")
         .attr("nodeid", d => d.id)
         .on("mouseover", function (e, d) {// 鼠标移动到node上时显示text
             node
               .attr("r", function (f) {
                 if (f.id == d.id) {
-                  return Math.sqrt(f.weight) * 1.5 + 5;
+                  return Math.sqrt(f.weight) * 1.4 + 5;
                 } else {
-                  return Math.sqrt(f.weight) * 1.5 + 1;
+                  return Math.sqrt(f.weight) * 1.4 + 1;
                 }
               })
               .style('zIndex', f => f.id == d.id ? 99 : 1);
@@ -101,13 +101,15 @@ function draw_graph() {
               .attr("stroke-opacity", function (f) {
                 if (f.source == d.id || f.target == d.id) {
                   return 0.7;
+                } else {
+                  return f.weight > 15 ? 0.4 : 0.2;
                 }
               });
         })
         .on("mouseout", function (e, d) {// 鼠标移出node后按条件判断是否显示text
           node
             .attr("r", function (f) {
-              return Math.sqrt(f.weight) * 1.5 + 1;
+              return Math.sqrt(f.weight) * 1.4 + 1;
             });
           text
             .attr("display", function (f) {
@@ -122,7 +124,7 @@ function draw_graph() {
             .attr("stroke", function (f) {
               return 'null';
             })
-            .attr("stroke-opacity", 0.3)
+            .attr("stroke-opacity", d => d.weight > 15 ? 0.4 : 0.2)
             .attr("stroke-width", d => Math.sqrt(d.weight));
         });
 
